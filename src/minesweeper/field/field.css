@@ -1,0 +1,22 @@
+.field {
+	position: relative;
+	display: grid;
+	grid-template-rows: auto;
+	grid-gap: 2px;
+	justify-content: center;;
+}
+
+.gameOver {
+	display: flex;
+	background-color: black;
+	opacity: .5;
+	color: white;
+	font-size: 22px;;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}

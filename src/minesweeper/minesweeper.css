@@ -1,3 +1,15 @@
+#minesweeper {
+	display: inline-block;
+}
+
 .minesweeper {
-	background-color: gray;
+	display: flex;
+	flex-direction: column;
+	background-color: #9babc4;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.controlsContainer {
+	display: flex;
+	flex-direction: row;
 }
