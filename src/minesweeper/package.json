@@ -1,0 +1,4 @@
+{
+	"main": "minesweeper",
+	"types": "minesweeper.tsx"
+}
