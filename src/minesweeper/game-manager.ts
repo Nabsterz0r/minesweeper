@@ -20,8 +20,6 @@ export interface ICell extends CellOption {
 
 export type GameMatrix = ICell[];
 
-const instance: GameManager | null = null;
-
 export class GameManager {
 	public gameMartix: GameMatrix = [];
 	private _options: GameManagerOptions;
